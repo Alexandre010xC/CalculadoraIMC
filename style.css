@@ -1,0 +1,27 @@
+body {
+	background: #212121;
+	color: #dfdfdf;
+	font-family: arial;
+}
+
+#content * {
+	margin: auto;
+}
+
+#content form, #content div {
+	background: #323232;
+	display: flex;
+	flex-direction: column;
+	border: 1.5px solid black;
+	border-radius: 7px;
+	padding: 30px 25px 30px 25px;
+	margin-top: 12%;
+	margin-left: 50%;
+	width: 280px;
+	transform: translateX(-50%);
+}
+
+#content div {
+	margin-bottom: 8px;
+	text-align: center;
+}
